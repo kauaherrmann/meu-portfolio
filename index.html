@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header class="topo" id="topo">
+        <div class="container topo__container">
+            <a class="marca" href="#topo">Meu Portfólio</a>
+            <nav aria-label="Menu principal">
+                <button class="menu-toggle" aria-expanded="false" aria-controls="menu-principal">
+                    <span class="menu-toggle__linha"></span>
+                    <span class="menu-toggle__linha"></span>
+                    <span class="menu-toggle__linha"></span>
+                    <span class="menu-toggle__texto">Menu</span>
+                </button>
+                <ul class="menu" id="menu-principal">
+                    <li><a href="#sobre-mim">Sobre mim</a></li>
+                    <li><a href="#formacao">Formação</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" aria-labelledby="titulo-sobre">
+            <div class="container hero__container">
+                <div class="hero__texto">
+                    <p class="hero__saudacao">Olá, eu sou</p>
+                    <h1 id="titulo-sobre">Kauã herrmann</h1>
+                    <p class="hero__subtitulo">Desenvolvedora Front-end e entusiasta de UX</p>
+                    <a class="botao" href="#contato">Vamos conversar</a>
+                </div>
+                <figure class="hero__imagem">
+                    <img src="imagens/perfil.svg" alt="Ilustração de uma pessoa trabalhando no computador">
+                </figure>
+            </div>
+        </section>
+
+        <section class="secao" id="sobre-mim" aria-labelledby="sobre-titulo">
+            <div class="container">
+                <div class="secao__cabecalho">
+                    <h2 id="sobre-titulo">Sobre mim</h2>
+                    <p>Uma breve apresentação sobre quem sou, o que me inspira e como passo meu tempo livre.</p>
+                </div>
+                <div class="grid-dupla">
+                    <article>
+                        <h3>Apresentação</h3>
+                        <p>Sou apaixonada por tecnologia aplicada a experiências acessíveis e inclusivas. Nos últimos anos, participei de projetos acadêmicos e voluntários voltados para educação digital, construindo interfaces intuitivas e responsivas.</p>
+                        <p>Quando não estou codando, gosto de explorar novas cafeterias pela cidade, experimentar receitas vegetarianas e maratonar documentários sobre ciências comportamentais.</p>
+                    </article>
+                    <article>
+                        <h3>Hobbies favoritos</h3>
+                        <ul class="lista-icone">
+                            <li><span aria-hidden="true">🎧</span> Curadoria de playlists de lo-fi.</li>
+                            <li><span aria-hidden="true">📚</span> Clube do livro focado em ficção científica.</li>
+                            <li><span aria-hidden="true">🏃‍♀️</span> Corridas curtas ao amanhecer.</li>
+                            <li><span aria-hidden="true">🎨</span> Lettering e ilustração digital.</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao" id="formacao" aria-labelledby="formacao-titulo">
+            <div class="container">
+                <div class="secao__cabecalho">
+                    <h2 id="formacao-titulo">Formação</h2>
+                    <p>Cursos, certificações e idiomas que fortaleceram minha trajetória profissional.</p>
+                </div>
+                <div class="timeline">
+                    <article class="timeline__item">
+                        <div>
+                            <h3>Análise e Desenvolvimento de Sistemas</h3>
+                            <p>uninter</p>
+                            <p>Ênfase em desenvolvimento web, metodologias ágeis e experiência do usuário.</p>
+                        </div>
+                    </article>
+                    <article class="timeline__item">
+                        <div>
+                            <h3>Certificação UX Writing</h3>
+                            <p>Curso de UX</p>
+                            <p>Práticas de microcopy, design inclusivo e testes com usuários.</p>
+                        </div>
+                    </article>
+                    <article class="timeline__item">
+                        <div>
+                            <h3>Idiomas</h3>
+                            <ul>
+                                <li>Português • Nativo</li>
+                                <li>Inglês • Avançado (C1)</li>
+                                <li>Espanhol • Intermediário (B1)</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao" id="portfolio" aria-labelledby="portfolio-titulo">
+            <div class="container">
+                <div class="secao__cabecalho">
+                    <h2 id="portfolio-titulo">Portfólio</h2>
+                    <p>Alguns projetos recentes que demonstram minhas habilidades técnicas e criativas.</p>
+                </div>
+                <div class="cards">
+                    <article class="card">
+                        <h3>Dashboard Educacional</h3>
+                        <p>Interface analítica para monitorar performance de estudantes, com gráficos responsivos e filtros customizáveis.</p>
+                        <a class="card__link" href="#" aria-disabled="true">Em breve</a>
+                    </article>
+                    <article class="card">
+                        <h3>Aplicativo de Rotina Saudável</h3>
+                        <p>Protótipo interativo criado no Figma, com foco em microinterações e gamificação de hábitos.</p>
+                        <a class="card__link" href="#" aria-disabled="true">Em breve</a>
+                    </article>
+                    <article class="card">
+                        <h3>Site para ONG de Impacto Social</h3>
+                        <p>Site institucional com acessibilidade AA, blog integrado e otimização SEO on-page.</p>
+                        <a class="card__link" href="#" aria-disabled="true">Em breve</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao" id="contato" aria-labelledby="contato-titulo">
+            <div class="container">
+                <div class="secao__cabecalho">
+                    <h2 id="contato-titulo">Contato</h2>
+                    <p>Preencha o formulário e retornarei em até 24 horas.</p>
+                </div>
+                <form class="formulario" id="form-contato" novalidate>
+                    <div class="campo">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" autocomplete="name" required>
+                        <span class="erro" id="erro-nome" aria-live="polite"></span>
+                    </div>
+                    <div class="campo">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" autocomplete="email" required>
+                        <span class="erro" id="erro-email" aria-live="polite"></span>
+                    </div>
+                    <div class="campo">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                        <span class="erro" id="erro-mensagem" aria-live="polite"></span>
+                    </div>
+                    <button class="botao" type="submit">Enviar mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <p>&copy; <span id="ano-atual"></span> Kauã herrmann. Todos os direitos reservados.</p>
+            <a class="rodape__topo" href="#topo">Voltar ao topo ↑</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
